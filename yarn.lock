@@ -2979,7 +2979,7 @@ __metadata:
     remark-preset-lint-recommended: ^4.0.1
     rollup: ^2.39.1
     rollup-plugin-terser: ^7.0.2
-    semver: ^5.4.1
+    semver: ^7.5.2
     staged-git-files: ^1.1.1
     terser-webpack-plugin: ^4.2.2
     unfetch: ^4.2.0
@@ -13372,7 +13372,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -13407,6 +13407,17 @@ fsevents@~2.3.1:
   bin:
     semver: bin/semver.js
   checksum: c53624ddf4b9779bcbf55a1eb8b37074cc44bfeca416f3cc263429408202a8a3c59b00eef8c647d697303bc39b95c022a5c61959221d3814bfb1270ff7c14986
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.2":
+  version: 7.5.3
+  resolution: "semver@npm:7.5.3"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: ce78fec4d8f77a3c97b82375ba23adcb376846977de33cdb113013dc02a0d992fe0f4d1537cc472505dc3d5502d2f72f1735775dfb64648bc7ab2c5f5aba8580
   languageName: node
   linkType: hard
 
